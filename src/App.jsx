@@ -160,7 +160,7 @@ function App() {
         {/* Footer */}
         <div className="flex justify-center space-x-4 mt-2">
   <a 
-    href="https://www.linkedin.com/in/rushikesh-patil/" 
+    href="https://www.linkedin.com/in/rushikesh-patil-/" 
     target="_blank" 
     rel="noopener noreferrer"
     title="Connect on LinkedIn"
