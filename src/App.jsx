@@ -158,16 +158,17 @@ function App() {
         )}
 
         {/* Footer */}
-        <div className="flex justify-center space-x-4 mt-2">
-  <a 
-    href="https://www.linkedin.com/in/rushikesh-patil-/" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    title="Connect on LinkedIn"
-  >
-    <Linkedin className="w-6 h-6 text-blue-600 hover:text-blue-800" />
-  </a>
-</div>
+        <div className="mt-8 text-center">
+          <p className="text-sm text-gray-600 mb-2">Connect with me:</p>
+          <a
+            href="https://linkedin.com/in/rushikesh-patil-"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors duration-200"
+          >
+            <Linkedin className="w-4 h-4" />
+          </a>
+        </div>
       </div>
     </div>
   );
